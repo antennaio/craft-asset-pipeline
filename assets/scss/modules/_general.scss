@@ -1,0 +1,12 @@
+body {
+  margin: 50px;
+  font-family: $font-family;
+  background: #fff;
+}
+
+#container {
+  margin: 0 auto;
+  width: 700px;
+  -webkit-box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+          box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}

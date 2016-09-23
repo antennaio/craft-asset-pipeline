@@ -1,0 +1,20 @@
+#content {
+  display: block;
+  padding: 25px;
+  background: #fff;
+
+  h1 {
+    margin-top: 0;
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  a {
+    color: $red;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
