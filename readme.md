@@ -22,11 +22,10 @@ An asset pipeline for Craft CMS
 
 `gulp watch`
 
-## Production mode
+## Development mode
 
-To enable script minification, style minification & sourcemaps run gulp with `--production` flag. 
+To disable script minification, style minification & sourcemaps in development run gulp with `--dev` flag. 
 
 ```
-gulp --production
+gulp --dev
 ```
-
