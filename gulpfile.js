@@ -39,10 +39,10 @@ var plugins = require('gulp-load-plugins')({
   pattern: ['gulp-*']
 });
 
-var isProduction = false;
+var isProduction = true;
 
-if (plugins.util.env.production === true) {
-  isProduction = true;
+if (plugins.util.env.dev === true) {
+  isProduction = false;
 }
 
 gulp.task('css', function() {
